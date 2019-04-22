@@ -13,6 +13,7 @@
 \usepackage{lmodern} % 解决 font warning
 % \usepackage[UTF8]{ctex}
 \usepackage{animate} % insert gif
+\usepackage{ctex} %中文支持
 
 \usepackage{lipsum} % To generate test text 
 \usepackage{ulem} % 下划线，波浪线
@@ -198,10 +199,10 @@
 % ---------------------------------------------------------------------
 
 %% preamble
-\title[Bayesian Statistics Tutorial]{Bayesian Statistics Tutorial}
+\title[左侧标题名称]{演讲题目}
 % \subtitle{The subtitle}
-\author{Urinx}
-\institute[HUST]{mkk@hust.edu.cn}
+\author{林诗杰}
+\institute[WHU]{linshijie@whu.edu.cn}
 
 % -------------------------------------------------------------
 
@@ -210,10 +211,13 @@
 %% title frame
 \begin{frame}
     \titlepage
+    \begin{figure}
+        \includegraphics[width=1\textwidth]{logo/all_to_1.pdf}
+    \end{figure}
 \end{frame}
 
 %% normal frame
-\section{Bayesian Statistics Tutorial}
+\section{第一章}
 \subsection{}
 \begin{frame}
     \frametitle{Basics}
@@ -352,6 +356,14 @@
 
 \end{frame}
 
+\begin{frame}
+    \frametitle{An Example}
+
+    \begin{figure}
+        \includegraphics[width=1.0\textwidth]{figures/tuanzhang.png}
+    \end{figure}
+    
+\end{frame}
 
 \begin{frame}
     \frametitle{How can we improve the diagnosis}
